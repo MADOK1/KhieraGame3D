@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://c0av585xcwplp"]
+
+[ext_resource type="PackedScene" uid="uid://dedc40j11uxwq" path="res://Models/Levels/BasicFightingMap-V1.blend" id="1_ead1l"]
+[ext_resource type="PackedScene" uid="uid://bsdjpi2endsur" path="res://PlayerScenes/cat_player.tscn" id="2_nl723"]
+
+[sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_nl723"]
+
+[sub_resource type="Sky" id="Sky_8lx3q"]
+sky_material = SubResource("PhysicalSkyMaterial_nl723")
+
+[sub_resource type="Environment" id="Environment_xs3dc"]
+background_mode = 2
+sky = SubResource("Sky_8lx3q")
+volumetric_fog_enabled = true
+volumetric_fog_length = 16.0
+
+[node name="TestArena" type="Node3D" unique_id=1902385405]
+
+[node name="BasicFightingMap-V1" parent="." unique_id=361886894 instance=ExtResource("1_ead1l")]
+
+[node name="CatPlayer" parent="." unique_id=1873518868 instance=ExtResource("2_nl723")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4251904, 0)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1964322961]
+environment = SubResource("Environment_xs3dc")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=819796972]
+transform = Transform3D(1, 0, 0, 0, -0.94263566, 0.33382338, 0, -0.33382338, -0.94263566, 0, 0, 0)
+shadow_enabled = true
