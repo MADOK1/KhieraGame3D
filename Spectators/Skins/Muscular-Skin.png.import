@@ -8,7 +8,7 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://Khiera-Game-3D/Spectators/Skins/Muscular-Skin.png"
+source_file="res://Spectators/Skins/Muscular-Skin.png"
 
 [params]
 

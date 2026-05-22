@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfinsq28enhd1"
-path.s3tc="res://.godot/imported/RatFace.jpg-15033701e2fc5478743fb4f4b06d9e0f.s3tc.ctex"
+path.s3tc="res://.godot/imported/RatFace.jpg-48fa3d0ad4aa3db03af54be7a64b75df.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Khiera-Game-3D/Rat/RatTextures/RatFace.jpg"
-dest_files=["res://.godot/imported/RatFace.jpg-15033701e2fc5478743fb4f4b06d9e0f.s3tc.ctex"]
+source_file="res://Rat/RatTextures/RatFace.jpg"
+dest_files=["res://.godot/imported/RatFace.jpg-48fa3d0ad4aa3db03af54be7a64b75df.s3tc.ctex"]
 
 [params]
 

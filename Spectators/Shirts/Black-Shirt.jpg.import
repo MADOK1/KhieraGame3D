@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dlxwgn743hssh"
-path.s3tc="res://.godot/imported/Black-Shirt.jpg-06c415fbac68e0e724becca3a724f791.s3tc.ctex"
+path.s3tc="res://.godot/imported/Black-Shirt.jpg-d2c6e71604e041b5b4e15bc70808e626.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Khiera-Game-3D/Spectators/Shirts/Black-Shirt.jpg"
-dest_files=["res://.godot/imported/Black-Shirt.jpg-06c415fbac68e0e724becca3a724f791.s3tc.ctex"]
+source_file="res://Spectators/Shirts/Black-Shirt.jpg"
+dest_files=["res://.godot/imported/Black-Shirt.jpg-d2c6e71604e041b5b4e15bc70808e626.s3tc.ctex"]
 
 [params]
 
