@@ -2,13 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmpy003u2s4xy"
-valid=false
-generator_parameters={}
+uid="uid://cyy2jwq36mtem"
+path="res://.godot/imported/catcrosshair.png-b5ee0c33e6c1b00f904c7bbcd359d2e9.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://Spectators/Skins/Muscular-Skin.png"
+source_file="res://Crosshairs/catcrosshair.png"
+dest_files=["res://.godot/imported/catcrosshair.png-b5ee0c33e6c1b00f904c7bbcd359d2e9.ctex"]
 
 [params]
 
@@ -20,7 +23,7 @@ compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""

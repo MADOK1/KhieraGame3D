@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3ipiq2bh7jta"
-path.s3tc="res://.godot/imported/RatFur.jpg-7966db4352470758ff20395d95d494cc.s3tc.ctex"
+path.s3tc="res://.godot/imported/RatFur.jpg-9feedf6fff122bd5e272a398c10ce359.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Khiera-Game-3D/Rat/RatTextures/RatFur.jpg"
-dest_files=["res://.godot/imported/RatFur.jpg-7966db4352470758ff20395d95d494cc.s3tc.ctex"]
+source_file="res://Rat/RatTextures/RatFur.jpg"
+dest_files=["res://.godot/imported/RatFur.jpg-9feedf6fff122bd5e272a398c10ce359.s3tc.ctex"]
 
 [params]
 

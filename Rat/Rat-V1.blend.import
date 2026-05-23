@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dntl2u747cgwu"
-path="res://.godot/imported/Rat-V1.blend-b47817527ff707622babba4ed15f3a6d.scn"
+path="res://.godot/imported/Rat-V1.blend-389d99b369cf90b278fec6431557307b.scn"
 
 [deps]
 
-source_file="res://Khiera-Game-3D/Rat/Rat-V1.blend"
-dest_files=["res://.godot/imported/Rat-V1.blend-b47817527ff707622babba4ed15f3a6d.scn"]
+source_file="res://Rat/Rat-V1.blend"
+dest_files=["res://.godot/imported/Rat-V1.blend-389d99b369cf90b278fec6431557307b.scn"]
 
 [params]
 

@@ -3,6 +3,9 @@
 [ext_resource type="PackedScene" uid="uid://dedc40j11uxwq" path="res://Models/Levels/BasicFightingMap-V1.blend" id="1_ead1l"]
 [ext_resource type="PackedScene" uid="uid://bsdjpi2endsur" path="res://PlayerScenes/cat_player.tscn" id="2_nl723"]
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_nl723"]
+radius = 10.0
+
 [sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_nl723"]
 
 [sub_resource type="Sky" id="Sky_8lx3q"]
@@ -11,12 +14,15 @@ sky_material = SubResource("PhysicalSkyMaterial_nl723")
 [sub_resource type="Environment" id="Environment_xs3dc"]
 background_mode = 2
 sky = SubResource("Sky_8lx3q")
-volumetric_fog_enabled = true
-volumetric_fog_length = 16.0
 
 [node name="TestArena" type="Node3D" unique_id=1902385405]
 
-[node name="BasicFightingMap-V1" parent="." unique_id=361886894 instance=ExtResource("1_ead1l")]
+[node name="BasicFightingMap-V1" parent="." unique_id=433680691 instance=ExtResource("1_ead1l")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="BasicFightingMap-V1" unique_id=760828326]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BasicFightingMap-V1/StaticBody3D" unique_id=464094584]
+shape = SubResource("CylinderShape3D_nl723")
 
 [node name="CatPlayer" parent="." unique_id=1873518868 instance=ExtResource("2_nl723")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4251904, 0)

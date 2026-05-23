@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c0iiqhm67pvjf"
-path="res://.godot/imported/Spectator1.blend-3220e7fa18c251e0881554f576bfbfa9.scn"
+path="res://.godot/imported/Spectator1.blend-1f3cc1bbb69f19ff46c951b15eaea84e.scn"
 
 [deps]
 
-source_file="res://Khiera-Game-3D/Spectators/Spectator1.blend"
-dest_files=["res://.godot/imported/Spectator1.blend-3220e7fa18c251e0881554f576bfbfa9.scn"]
+source_file="res://Spectators/Spectator1.blend"
+dest_files=["res://.godot/imported/Spectator1.blend-1f3cc1bbb69f19ff46c951b15eaea84e.scn"]
 
 [params]
 
