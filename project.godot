@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="KieraGame3D"
+run/main_scene="uid://c0av585xcwplp"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+mouse_cursor/custom_image="uid://c830fh7msqxf3"
 
 [physics]
 
